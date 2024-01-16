@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "my-first-server" {
   ami           = "ami-032346ab877c418af"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "HelloWorld"
